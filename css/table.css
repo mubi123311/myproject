@@ -1,0 +1,21 @@
+table{
+    width: 100%;
+    border-collapse:collapse;
+    border-color: black;
+}
+.header_row{
+    background-color: green;
+}
+
+.header_row:hover{
+    background-color: grey;
+}
+.row:nth-child(even){
+    background-color: cadetblue;
+}
+.row{
+    text-align: center;
+}
+.row:hover:nth-child(odd){
+    background-color: darkblue;
+}
